@@ -1,0 +1,1 @@
+npx hardhat --config ./network/localConfig.js node --port 2222

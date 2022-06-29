@@ -1,0 +1,75 @@
+Arguments: 
+  /usr/local/bin/node /usr/share/yarn/bin/yarn.js install
+
+PATH: 
+  /home/csx/.vscode-server/bin/30d9c6cd9483b2cc586687151bcbcd635f373630/bin/remote-cli:/home/csx/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Git/cmd:/mnt/d/protoc-3.17.1-win64/bin:/mnt/c/minikube:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files (x86)/NetSarang/Xshell 7/:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/ProgramData/DockerDesktop/version-bin:/mnt/c/Users/chenshuixing/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/JetBrains/PhpStorm 2020.1/bin:/mnt/c/Program Files/JetBrains/GoLand 2021.1.1/bin:/mnt/d/Microsoft VS Code/bin:/mnt/d/TDM-GCC-64/bin:/mnt/c/minikube/minikube.exe:/mnt/c/Users/chenshuixing/AppData/Roaming/npm:/snap/bin:/usr/local/go/bin:/usr/local/go/bin:/home/csx/ethx/go-ethereum/build/bin:/usr/local/bin:/mnt/c/Users/chenshuixing/go/bin:/home/csx/go/bin:/home/csx/nodes/ckb:/home/csx/github/go-ethereum/cmd/abigen:/home/csx/btc-parser/bitcoin-explorer-build/bin:/usr/local/BerkeleyDB.4.8/bin
+
+Yarn version: 
+  1.22.5
+
+Node version: 
+  14.17.6
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/core-js/-/core-js-2.6.12.tgz: ESOCKETTIMEDOUT
+      at ClientRequest.<anonymous> (/usr/share/yarn/lib/cli.js:141376:19)
+      at Object.onceWrapper (events.js:519:28)
+      at ClientRequest.emit (events.js:400:28)
+      at TLSSocket.emitRequestTimeout (_http_client.js:790:9)
+      at Object.onceWrapper (events.js:519:28)
+      at TLSSocket.emit (events.js:412:35)
+      at TLSSocket.Socket._onTimeout (net.js:484:8)
+      at listOnTimeout (internal/timers.js:557:17)
+      at processTimers (internal/timers.js:500:7)
+
+npm manifest: 
+  {
+    "name": "exchangecontract",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "@nomiclabs/hardhat-ethers": "^2.0.6",
+      "@nomiclabs/hardhat-etherscan": "^3.1.0",
+      "@nomiclabs/hardhat-waffle": "^2.0.3",
+      "@nomiclabs/hardhat-web3": "^2.0.0",
+      "chai": "^4.3.6",
+      "dotenv": "^16.0.1",
+      "eslint": "^7.32.0",
+      "eslint-config-prettier": "^8.5.0",
+      "eslint-config-standard": "^16.0.3",
+      "eslint-plugin-import": "^2.26.0",
+      "eslint-plugin-node": "^11.1.0",
+      "eslint-plugin-prettier": "^3.4.1",
+      "eslint-plugin-promise": "^5.2.0",
+      "ethereum-waffle": "^3.4.4",
+      "ethers": "^5.6.8",
+      "hardhat": "^2.9.9",
+      "hardhat-contract-sizer": "^2.5.1",
+      "hardhat-gas-reporter": "^1.0.8",
+      "mocha": "^10.0.0",
+      "prettier": "^2.7.1",
+      "prettier-plugin-solidity": "^1.0.0-beta.19",
+      "solhint": "^3.3.7",
+      "solidity-coverage": "^0.7.21",
+      "web3": "^1.7.3"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.6.0",
+      "@openzeppelin/contracts-upgradeable": "^4.6.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
